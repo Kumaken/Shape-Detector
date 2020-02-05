@@ -1,0 +1,21 @@
+R_M_:find-edge-number
+A_F_:(edge-count 4)
+R_M_:find-parallel-edges
+A_F_:(parallel-edge-1 4)
+A_F_:(parallel-edge-2 3)
+R_M_:find-ndparallel-edges
+A_F_:(ndparallel-edge-1 2)
+A_F_:(ndparallel-edge-2 1)
+R_M_:deduce-trapezium
+A_F_:(angle-trait trapezium)
+R_M_:find-shortest-edge
+A_F_:(shortest-edge 2)
+R_M_:find-longest-edge
+A_F_:(longest-edge 1)
+A_F_:(length-trait equilateral)
+R_M_:find-2middle-edge
+A_F_:(middle-edge-1 4)
+A_F_:(middle-edge-2 3)
+R_M_:fill-none-length
+A_F_:(length-trait none)
+F_R_:regular-trapezium
